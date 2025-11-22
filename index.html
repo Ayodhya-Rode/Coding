@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch POST Example</title>
+</head>
+<body>
+  <h3>POST Request Demo</h3>
+  <button onclick="sendPost()">Send POST</button>
+  <pre id="output"></pre>
+
+  <div>
+    <h2>Add</h2>
+    
+  </div>
+
+  <script>
+    async function sendPost() {
+      const response = await fetch("http://localhost:3000/posts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: "Ayodhya",
+          body: "Learning Fetch POST",
+          id: 2
+        })
+      });
+      
+      const data = await response.json();
+      document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>

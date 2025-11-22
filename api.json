@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello World",
+      "body": "My first post!"
+    },
+    {
+      "id": "2",
+      "title": "Ayodhya",
+      "body": "Learning Fetch POST"
+    },
+    {
+      "id": 2,
+      "title": "Ayodhya",
+      "body": "Learning Fetch POST"
+    },
+    {
+      "id": 2,
+      "title": "Ayodhya",
+      "body": "Learning Fetch POST"
+    }
+  ]
+}

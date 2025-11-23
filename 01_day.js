@@ -107,9 +107,46 @@
 // console.log(s.split('a'));
 // console.log(s.split(" "));
 
+// let s = "H"
+// console.log(s.padEnd(1,'0'));
 
-let s = "H"
-console.log(s.padEnd(1,'0'));
+
+// Bigint
+// let i = 32
+// console.log(BigInt(i));
+
+
+// let j = 329887677
+// console.log(BigInt(j));
+
+// let j = 329887677n
+// console.log(Number(j));
+
+
+
+
+// Loops
+
+// for(let i = 1; i<=5; i++){
+//     console.log(i);
+    
+// }
+
+
+// let j = 2
+
+// while (j<=10) {
+//    console.log(j);
+//    j+=2;
+// }
+
+
+// let arr = ["js", "react", "node"]
+
+// for(let val of arr){
+//     console.log(val);
+    
+// }
 
 
 

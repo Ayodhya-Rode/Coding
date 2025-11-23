@@ -79,3 +79,37 @@
 
 // let i = "hi"
 // console.log(i.toString())
+
+// String
+
+// console.log("Line1\nLine2");
+// console.log("Tab\tSpace");
+// console.log("She said \"Hi\"" );
+
+
+// let s = "Hello Javascript";
+// console.log(s.length);
+// console.log(s.toUpperCase());
+// console.log(s.toLowerCase());
+// console.log(s[0].toLowerCase() + s.slice(1).toUpperCase() );
+
+// console.log(s.includes('He'));
+// console.log(s.indexOf('l'));
+// console.log(s.lastIndexOf('l'));
+
+// console.log(s.slice(1,-4));
+// console.log(s);
+// console.log(s.substring(1,-4));
+// console.log(s);
+
+// console.log(s.replace('Hello',"Kooo"));
+
+// console.log(s.split('a'));
+// console.log(s.split(" "));
+
+
+let s = "H"
+console.log(s.padEnd(1,'0'));
+
+
+

@@ -149,4 +149,52 @@
 // }
 
 
+// Function
+
+// max number
+
+// let arr = [10, 40, 2, 99, 5]
+
+// function LargeNumber(array){
+//    return Math.max(...array)
+// }
+// const result = LargeNumber(arr)
+// console.log(result);
+
+
+
+// palindrome
+
+// let str = "level"
+
+// function palindrome(newStr){
+//     return newStr === newStr.split("").reverse().join("")
+// }
+// let result = palindrome(str)
+// console.log(result);
+
+// let word = "javascript";
+
+// function VowelCount(str){
+//     let vowel = "aeiouAEIOU"
+//     let count = 0
+
+//     for (const char of str) {
+//         if(vowel.includes(char)){
+//            count++
+//         }
+//     }
+    
+// }
+// let result = VowelCount(word)
+// console.log(result);
+
+
+// let arr1 = [1,2,3]
+// function DoubleArray(oldArray){
+//     return arr1.map((Element) => Element*2)
+// }
+// let result = DoubleArray(arr1)
+// console.log(result);
+
 
